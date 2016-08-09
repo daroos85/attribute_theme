@@ -1,0 +1,44 @@
+name = Attribute v1
+description = First version of Attribute template
+core = 7.x
+
+
+; Regions
+
+
+regions[main_slider]       = main_slider
+regions[portfolio_slider]  = portfolio_slider
+regions[lang_switch]       = lang_switch
+regions[contact_form]      = contact_form
+
+
+regions[content] = Content
+
+
+
+; Styles
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/grid.css
+stylesheets[all][] = css/slick.css
+stylesheets[all][] = css/slick-theme.css
+stylesheets[all][] = css/animate.css
+;stylesheets[all][] = css/sweetalert.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/style-992px.css
+stylesheets[all][] = css/style-768px.css
+stylesheets[all][] = css/style-mobile.css
+stylesheets[all][] = css/responsive-custom.css
+
+
+; Scripts
+scripts[] = 'js/jquery-ui.min.js'
+scripts[] = 'js/slick.js'
+scripts[] = 'js/jquery.mousewheel.min.js'
+scripts[] = 'js/jquery.simplr.smoothscroll.min.js'
+scripts[] = 'js/jquery.sticky-kit.min.js'
+scripts[] = 'js/jquery.matchHeight-min.js'
+scripts[] = 'js/waypoints.min.js'
+;scripts[] = 'js/jquery.lazyload.js'
+;scripts[] = 'js/sweetalert.min.js'
+;scripts[] = 'js/typed.min.js'
+scripts[] = 'js/script.js'
